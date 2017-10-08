@@ -12,13 +12,18 @@ First, add your local user to docker group:
 sudo usermod -aG docker YOURUSERNAME
 ```
 
-Pull image ([from Hub](https://registry.hub.docker.com/u/blang/latex)):
+Pull image ([from Hub](https://registry.hub.docker.com/u/andreformento/latex)):
 ```bash
-docker pull blang/latex
+docker pull andreformento/latex
 ```
 or build:
 ```bash
-docker build -t blang/latex .
+docker build -t andreformento/latex .
+
+```
+push:
+```bash
+docker push andreformento/latex .
 
 ```
 
