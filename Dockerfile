@@ -9,4 +9,5 @@ RUN apt-get update -q && apt-get install -qy \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /data
+
 VOLUME ["/data"]
