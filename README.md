@@ -19,12 +19,6 @@ docker pull andreformento/latex
 or build:
 ```bash
 docker build -t andreformento/latex .
-
-```
-push:
-```bash
-docker push andreformento/latex .
-
 ```
 
 Usage:
