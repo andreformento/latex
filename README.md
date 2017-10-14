@@ -48,3 +48,16 @@ Why should I use this container?
 - Preserves UID and GID of local user
 - Use container like local command
 - `texlive-full` covers most of the available packages
+
+# Docker utils
+Remove:
+```bash
+docker kill latex
+docker rm latex
+```
+
+Initialize
+```bash
+docker run -v "$PWD":/data --name latex -d -it andreformento/latex
+docker attach latex
+```
