@@ -10,8 +10,6 @@ RUN apt-get update -q && apt-get install -qy \
     && texhash \
     && rm -rf /var/lib/apt/lists/*
 
-RUN texhash
-
 WORKDIR /data
 
 VOLUME ["/data"]
