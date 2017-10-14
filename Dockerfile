@@ -6,6 +6,8 @@ RUN apt-get update -q && apt-get install -qy \
     texlive-full \
     python-pygments gnuplot \
     make git \
+    && update-texmf \
+    && texhash \
     && rm -rf /var/lib/apt/lists/*
 
 RUN texhash
