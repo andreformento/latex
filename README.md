@@ -1,3 +1,5 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/andreformento/latex.svg?maxAge=2592000)](https://hub.docker.com/r/andreformento/latex/) [![Docker Pulls](https://img.shields.io/docker/automated/andreformento/latex.svg?maxAge=2592000)](https://hub.docker.com/r/andreformento/latex/)  [![Docker Pulls](https://img.shields.io/docker/stars/andreformento/latex.svg?maxAge=2592000)](https://hub.docker.com/r/andreformento/latex/) [![](https://images.microbadger.com/badges/image/andreformento/latex.svg)](https://microbadger.com/images/andreformento/latex "Get your own image badge on microbadger.com")
+
 Latex docker container
 =====
 
