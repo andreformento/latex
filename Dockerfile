@@ -8,6 +8,8 @@ RUN apt-get update -q && apt-get install -qy \
     make git \
     && rm -rf /var/lib/apt/lists/*
 
+RUN texhash
+
 WORKDIR /data
 
 VOLUME ["/data"]
