@@ -8,6 +8,7 @@ RUN apt-get update -q && apt-get install -qy \
     make git \
     && update-texmf \
     && texhash \
+    && pandoc \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /data
