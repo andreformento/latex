@@ -6,7 +6,7 @@ RUN apt-get update -q \
     && apt-get install -qy \
                        texlive-full \
                        python-pygments gnuplot \
-                       pandoc abiword \
+                       pandoc abiword soffice \
                        make git \
     && update-texmf \
     && texhash \
