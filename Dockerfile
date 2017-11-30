@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM ubuntu:xenial
 
 MAINTAINER André Formento <andreformento.sc@gmail.com>
 
