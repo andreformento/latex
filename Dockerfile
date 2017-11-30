@@ -2,13 +2,14 @@ FROM ubuntu:xenial
 MAINTAINER André Formento <andreformento.sc@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update -q && apt-get install -qy \
-    texlive-full \
-    python-pygments gnuplot \
-    make git \
+RUN apt-get update -q \
+    && apt-get install -qy \
+                       texlive-full \
+                       python-pygments gnuplot \
+                       pandoc \
+                       make git \
     && update-texmf \
     && texhash \
-    && pandoc \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /data
